@@ -4,7 +4,7 @@ SpringBoot框架整合Quartz完成定时任务调度
 1. demo概述
    + 该demo基于SpringBoot2.1.6和Quartz2.2.3框架，提供了相关管理定时任务的接口；
    + 该demo集成了Swagger框架，项目启动成功后访问<http://localhost:8080/swagger-ui.html#/>即可查看项目对应的Swagger文档；
-   + 该demo支持MySQL和postgreSQL两种数据库，相关数据库初始化脚本可见resources目录，切换数据库时需同步的修改application.yml配置（datasource和driverDelegateClass）
+   + 该demo支持MySQL和postgreSQL两种数据库，相关数据库初始化脚本可见resources目录，切换数据库时需同步的修改application.yml配置（datasource和driverDelegateClass）。
 
 2. Quartz的3个基本要素
 + Scheduler：调度器，所有的调度都是由它控制。
